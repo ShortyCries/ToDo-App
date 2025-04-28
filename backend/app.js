@@ -6,7 +6,7 @@ const PORT = 3000;
 
 //
 
-//
+//listen to port current port
 app.listen(PORT, () => {
-  console.log("connected successfully");
+  console.log(`connected successfully listen to port at ${PORT}`);
 });
