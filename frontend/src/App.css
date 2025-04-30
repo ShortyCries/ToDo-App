@@ -11,7 +11,6 @@ body {
   padding: 20px;
 }
 
-
 header {
   background: #fff;
   padding: 20px;
@@ -23,7 +22,6 @@ header h1 {
   font-size: 3rem;
   color: #333;
 }
-
 
 .container {
   max-width: 800px;
@@ -46,7 +44,7 @@ input {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #bb2124;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -55,18 +53,24 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #e3393c;
+  transition: 0.4s ease-in-out;
 }
-
+.addButton {
+  background-color: #3e93ad;
+}
+.addButton:hover {
+  background-color: #25abd3;
+  transition: 0.4s ease-in-out;
+}
 .workout-list {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-
 .workout-item {
-  background: #ffcdcd;
+  background: #d4fbd6;
   padding: 15px;
   margin-left: 5px;
   margin-right: 5px;
@@ -78,7 +82,7 @@ button:hover {
 
 .workout-item h3 {
   margin-bottom: 10px;
-  color: #4CAF50;
+  color: #4caf50;
 }
 
 .workout-item p {

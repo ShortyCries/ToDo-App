@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
-import WorkoutForm from './WorkoutForm';
-import WorkoutList from './WorkoutList';
-import './App.css';
-import axios from 'axios';
+import { useEffect, useState } from "react";
+import WorkoutForm from "./WorkoutForm";
+import WorkoutList from "./WorkoutList";
+import "./App.css";
+import axios from "axios";
 
 const App = () => {
   const [workouts, setWorkouts] = useState([]);
