@@ -7,10 +7,10 @@ const {
 const router = express.Router();
 
 // Create a new workout
-router.post("/workouts", addWorkOutController);
+router.post("/addWorkouts", addWorkOutController);
 
 // Get all workouts
 router.get("/workouts", getWorkoutController);
 
 // Delete a workout by ID
-router.delete("/workouts/:_id", deleteWorkOutController);
+router.delete("/deleteWorkouts/:_id", deleteWorkOutController);
