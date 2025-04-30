@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import axios from 'axios';
 export default function WorkoutForm() {
 
     const [title, setTitle] = useState('');
@@ -9,6 +9,16 @@ export default function WorkoutForm() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        try {
+            await axios.post("localhost:3000/api/addWorkouts", {
+                workOutTitle: "",
+                loadInKg: "",
+                reps: ""
+            });
+        } catch (error) {
+            console.log("something went wrong", error);
+        }
     }
 
     return (
