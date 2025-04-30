@@ -14,3 +14,5 @@ router.get("/workouts", getWorkoutController);
 
 // Delete a workout by ID
 router.delete("/deleteWorkouts/:_id", deleteWorkOutController);
+
+module.exports = router;
